@@ -70,7 +70,7 @@ d3.csv("quakes.csv", function (data) {
     d.depth = d3.round(+d.depth,0);
   });
 /******************************************************
-* Step1: Create the dc.js chart objects & ling to div *
+* Creating the dc.js chart objects & ling to div *
 ******************************************************/
 
     var magnitudeChart = dc.barChart("#dc-magnitude-chart");
