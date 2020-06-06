@@ -7,6 +7,6 @@ To run the example and see all the graphs, set up a local server with either:
 - python -m SimpleHTTPServer
 - python3 -m http.server
 
-Any server of your choice
+Make sure to put in the folder where you are going to store the HTML file, all the sources that are in GitHub folder.
 
 Then in your browser go to localhost:8000/idx.html (replace the port or URL as required by your server set-up). The HTML will show the visualizations coming from the sources established.
